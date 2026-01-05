@@ -12,8 +12,7 @@ from telebot import types
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 
 # Bot tokenini environmentdan olish yoki to'g'ridan-to'g'ri yozish
-BOT_TOKEN = os.getenv('BOT_TOKEN', '
-8545746982:AAFBCMTHY33MnqD58O_wia4f2M2RjcBgVZA')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8545746982:AAFBCMTHY33MnqD58O_wia4f2M2RjcBgVZA')
 CHANNEL_USERNAME = '@GarajHub_uz'  # Kanal username
 ADMIN_ID = 7903688837  # Admin ID
 
